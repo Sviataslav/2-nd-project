@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:"Montserrat";
+    src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+.first-page{
+    background-image: url(./img/Rectangle.png);
+    height: 60vh;
+    width: 100%;
+    
+}
+.first-page__menu-line{
+    display: flex;
+    height: 15%;
+    justify-content: flex-end;
+    border-bottom: 1px;
+    border-color: #FFFFFF;
+}
+.first-page__menu-block{
+    padding-right: 20%;
+    align-self: center;
+}
+.first-page__menu-link{
+    font-family: Montserrat;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 2vw;
+}
