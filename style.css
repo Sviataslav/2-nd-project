@@ -9,20 +9,20 @@ body{
 
 .first-page{
     background-image: url(./img/Rectangle.png);
-    height: 60vh;
+    height: 70vh;
     width: 100%;
-    
+    background-size: cover;
 }
 .first-page__menu-line{
     display: flex;
     height: 15%;
     justify-content: flex-end;
-    border-bottom: 1px;
-    border-color: #FFFFFF;
+    border-bottom: 1px solid #A1A1A1;
 }
 .first-page__menu-block{
     padding-right: 20%;
     align-self: center;
+    
 }
 .first-page__menu-link{
     font-family: Montserrat;
@@ -30,4 +30,112 @@ body{
     color: #FFFFFF;
     text-decoration: none;
     margin-left: 2vw;
+    padding-bottom: 3.5vh;
 }
+.first-page__menu-link:hover{
+    border-bottom:  3px  solid white;
+}
+.first-page__information{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-page__header{
+    font-family:"Montserrat";
+    font-size: 16px;
+    color: #FFFFFF;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.first-page__text{
+    font-family:"Montserrat";
+    font-size: 48px;
+    color: #FFFFFF;
+    align-self: center;
+    text-align: center;
+    margin-top: 0;
+}
+.button{
+    font-family:"Montserrat";
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4985FF;
+    /*height: 4vh;
+    width: 15vw;*/
+    padding: 1.5vh 3.5vw;
+    text-align: center;
+    align-self: center;
+    border-radius: 50vh;
+    text-decoration: none;
+}
+.second-page{
+    display: flex;
+    flex-direction: column;
+}
+.second-page__information{
+    display: flex;
+    flex-direction: column;
+}
+/*
+.a1{
+    height: 40px;
+    width: 40px;
+    background-color: chocolate;
+}
+.a2{
+    height: 40px;
+    width: 40px;
+    background-color: darkblue;
+}
+.a3{
+    height: 40px;
+    width: 40px;
+    background-color: darkkhaki;
+}
+.a4{
+    height: 40px;
+    width: 40px;
+    background-color: deeppink;
+}
+.a5{
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+}
+.a1:focus~.testArea{
+background-color: chocolate;
+}
+.a2:focus~.testArea{
+    background-color: darkblue;
+}
+.a3:focus~.testArea{
+    background-color: darkkhaki;
+}
+.a4:focus~.testArea{
+    background-color: deeppink;
+}
+.a5:focus~.testArea{
+    background-color: gold;
+}
+.testArea{
+    height: 215px;
+    width: 215px;
+    background-color: cadetblue;
+}
+.menuTest{
+    opacity: 0;
+}
+.burger-icon{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+.menu-burger{
+    display: none;
+}
+.menu-burger:checked+.menuTest{
+    opacity: 1;
+}
+*/
